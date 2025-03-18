@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PRt1FRo5jrKLaDi0PMtda4B",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718444378,
+  "data": {
+    "object": {
+      "id": "ch_3PRt1FRo5jrKLaDi0mrMMJ34",
+      "object": "charge",
+      "amount": 9000,
+      "amount_captured": 9000,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Jet_henriette@hotmail.com",
+        "name": "S.M. BOUWHUIS",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718444377,
+      "currency": "usd",
+      "customer": "cus_QITzxvj8UAvwCi",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 16,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PRt1FRo5jrKLaDi0Hi3L1mv",
+      "payment_method": "pm_1PRt5ARo5jrKLaDiefqTFFmR",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 9000,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NL",
+          "exp_month": 8,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "VEbgKXjonqSQ7tpW",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "5615",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 9000,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGko28K1swYyBu4FYJQAWjosFpn_JxN-gqlpXA0AdbaPuABTLZ-8-nAfap3ahNuIv-mYocp8i2eI5c9fE2Q",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_X5uhSJNSYgHTf3",
+    "idempotency_key": "83dfd137-e59f-4937-9334-04d70ff1d710"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "evt_3QwJCrE6hZ9WbPkk0n0uHOLa",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740470977,
+  "data": {
+    "object": {
+      "id": "ch_3QwJCrE6hZ9WbPkk0vpo12Gw",
+      "object": "charge",
+      "amount": 3100,
+      "amount_captured": 3100,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "DE",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "ahmadmlouk14@gmail.com",
+        "name": "Ahmad Mlouk",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740470976,
+      "currency": "usd",
+      "customer": "cus_RpzAJKD7t8YEe5",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QwJCrE6hZ9WbPkk0Tisw40W",
+      "payment_method": "pm_1QwJCqE6hZ9WbPkk29mQOF1H",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 3100,
+          "authorization_code": "HRC8MC",
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": null
+          },
+          "country": "DE",
+          "exp_month": 10,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "uyDrAz5T1tEUEw0E",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "6057",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MDHR265T20225",
+          "overcapture": {
+            "maximum_amount_capturable": 3100,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "frictionless",
+            "electronic_commerce_indicator": "02",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "2e3c23d3-9252-40be-bbe3-f88654a1d83f",
+            "version": "2.2.0"
+          },
+          "wallet": {
+            "dynamic_last4": null,
+            "link": {
+            },
+            "type": "link"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2sowfX1vQYyBjGSxvXdZzosFrUDIWZFs6Vm6DwyCn4jNj-17n1SvAPaBXP9YciHJs5Y22ZJeR8k4prIi4U",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QwJCrE6hZ9WbPkk0Tisw40W-payatt_3QwJCrE6hZ9WbPkk089xMVeN"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PSMb2Ro5jrKLaDi02WvoHFX",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718557831,
+  "data": {
+    "object": {
+      "id": "ch_3PSMb2Ro5jrKLaDi0HZo3k4Y",
+      "object": "charge",
+      "amount": 8400,
+      "amount_captured": 8400,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "CH",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "heizbi@gmail.com",
+        "name": "Heinz Zbinden",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718557829,
+      "currency": "usd",
+      "customer": "cus_QIyWkEVBfuU6Lo",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 53,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSMb2Ro5jrKLaDi0jtxFtEK",
+      "payment_method": "pm_1PSMb1Ro5jrKLaDil8N3boFq",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 8400,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "CH",
+          "exp_month": 3,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "LGXGn6pAInQnn19H",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "3607",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 8400,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkoh7m8swYyBh6ZD8jxSzosFlxWBV9Lt0RN9MhwOA3qb7_-ScIP4tFZ58Z5mNKbTUNxC-_h61VZRPLQAuQ",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_UgpnU0aXHopS7b",
+    "idempotency_key": "a5b19792-48df-46bc-86e9-4572dd022b83"
+  },
+  "type": "charge.succeeded"
+}

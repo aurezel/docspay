@@ -1,0 +1,125 @@
+{
+  "id": "evt_3PSHeIRo5jrKLaDi1qNM4Wky",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718538899,
+  "data": {
+    "object": {
+      "id": "ch_3PSHeIRo5jrKLaDi1OJaubc8",
+      "object": "charge",
+      "amount": 9000,
+      "amount_captured": 9000,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "ES",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "ajpq1981@gmail.com",
+        "name": "Alfonso Juan Perez Quintana",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718538898,
+      "currency": "usd",
+      "customer": "cus_QItOp1t6j7IgQ5",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": "elevated_risk_level",
+        "risk_level": "elevated",
+        "risk_score": 73,
+        "rule": "manual_review_if_elevated_risk",
+        "seller_message": "Stripe evaluated this payment as having elevated risk, and placed it in your manual review queue.",
+        "type": "manual_review"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSHeIRo5jrKLaDi1JrvRkwK",
+      "payment_method": "pm_1PSHfgRo5jrKLaDiIY0MYb8H",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 9000,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "ES",
+          "exp_month": 9,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "G9lxJot5xU1sSVxM",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "2435",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 9000,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkolKW7swYyBttbBKYc_zosFpQqn6MzONGCteqMOKMCH3QUNftZOaB91pYKXePVw0EjzTEkoT22viNoEMU",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_ns5UZQHhMHSPCa",
+    "idempotency_key": "ce06bcf1-0cc2-4f18-9260-6c177b7d7dea"
+  },
+  "type": "charge.succeeded"
+}

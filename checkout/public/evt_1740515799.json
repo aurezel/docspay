@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QwUrpE6hZ9WbPkk0zF7OERo",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740515798,
+  "data": {
+    "object": {
+      "id": "ch_3QwUrpE6hZ9WbPkk0uLgh5M7",
+      "object": "charge",
+      "amount": 3000,
+      "amount_captured": 3000,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Gävle",
+          "country": "SE",
+          "line1": "Jökelvägen 22",
+          "line2": "2",
+          "postal_code": "80633",
+          "state": ""
+        },
+        "email": "dinasuhair555@gmail.com",
+        "name": "Dina Albasri",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740515797,
+      "currency": "usd",
+      "customer": "cus_RqBDn2ylz2XYrh",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QwUrpE6hZ9WbPkk0Mn7bmwv",
+      "payment_method": "pm_1QwUroE6hZ9WbPkkQqAZkpR5",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 3000,
+          "authorization_code": "041986",
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "SE",
+          "exp_month": 8,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "BtzcQeOlL1xCeW4D",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "7230",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MDSE14Z9I0225",
+          "overcapture": {
+            "maximum_amount_capturable": 3000,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "3059",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2so19P4vQYyBkZgSLSeXjosFg_f7wJh_-GPIUC1I_VEZGB8Z1z-GH3xevZ62jnfFmsOOt3n_fL4lF7jc_M",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_GKFaqxUszYcwqs",
+    "idempotency_key": "475dbd8e-0ff3-4835-99c3-edb329a7f451"
+  },
+  "type": "charge.succeeded"
+}

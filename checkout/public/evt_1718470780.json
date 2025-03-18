@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PRzwzRo5jrKLaDi0waKw9Ox",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718470779,
+  "data": {
+    "object": {
+      "id": "ch_3PRzwzRo5jrKLaDi0xrXjpvZ",
+      "object": "charge",
+      "amount": 14400,
+      "amount_captured": 14400,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Wdantuma@gmail.com",
+        "name": "W.P.W. Dantuma",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718470778,
+      "currency": "usd",
+      "customer": "cus_QIb7cQfJy4sCAx",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 20,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PRzwzRo5jrKLaDi0jTKXTUX",
+      "payment_method": "pm_1PRzwyRo5jrKLaDi1gDzhXSL",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 14400,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NL",
+          "exp_month": 11,
+          "exp_year": 2025,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "faJBbrWq3TzAwJ8w",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "5498",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 14400,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGko_JC3swYyBjaZnl7XBDosFuzlNtIprB9BPo3HW2j-hcCa3ORenhYLw7nCOAlGQO8sQPd5q7L8gUo2ehk",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_8K0CWU36uGlypM",
+    "idempotency_key": "17d5dd15-93f0-4609-8c26-f1cbf910cb2c"
+  },
+  "type": "charge.succeeded"
+}

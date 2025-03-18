@@ -1,0 +1,137 @@
+{
+  "id": "evt_3QvcX1E6hZ9WbPkk1Ksp0pyl",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740306942,
+  "data": {
+    "object": {
+      "id": "ch_3QvcX1E6hZ9WbPkk1ifL3FVf",
+      "object": "charge",
+      "amount": 3100,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "DE",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "bingeljaina9@gmail.com",
+        "name": "Jaina Bingel",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": false,
+      "created": 1740306940,
+      "currency": "usd",
+      "customer": "cus_RpH41OvOi9Up50",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card has insufficient funds.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": "try_again_later",
+        "network_advice_code": null,
+        "network_decline_code": "51",
+        "network_status": "declined_by_network",
+        "reason": "insufficient_funds",
+        "risk_level": "normal",
+        "seller_message": "The bank returned the decline code `insufficient_funds`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3QvcX1E6hZ9WbPkk1vT7w8uw",
+      "payment_method": "pm_1QvcWvE6hZ9WbPkkeNknmQ2t",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "authorization_code": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "DE",
+          "exp_month": 12,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "rohnvQhUVnfBOm4B",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "5725",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MDSMELHFF0223",
+          "overcapture": {
+            "maximum_amount_capturable": 3100,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "frictionless",
+            "electronic_commerce_indicator": "02",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "ddc8fe9c-e9d2-48c7-baae-8f424b02c2e4",
+            "version": "2.2.0"
+          },
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QvcX1E6hZ9WbPkk1vT7w8uw-payatt_3QvcX1E6hZ9WbPkk1ty5sNPc"
+  },
+  "type": "charge.failed"
+}

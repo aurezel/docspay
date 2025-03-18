@@ -1,0 +1,130 @@
+{
+  "id": "evt_3PRukdRo5jrKLaDi0700ZkPp",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718450827,
+  "data": {
+    "object": {
+      "id": "ch_3PRukdRo5jrKLaDi070Fp2Vj",
+      "object": "charge",
+      "amount": 9600,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Hoorn",
+          "country": "NL",
+          "line1": "Schoolsteeg 1",
+          "line2": "",
+          "postal_code": "1621CE",
+          "state": ""
+        },
+        "email": "isabelleblankendaal@hotmail.com",
+        "name": "Isabelle Blankendaal",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": false,
+      "created": 1718450826,
+      "currency": "usd",
+      "customer": "cus_QIVlNqKEpz39nq",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card does not support this type of purchase.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "declined_by_network",
+        "reason": "transaction_not_allowed",
+        "risk_level": "normal",
+        "risk_score": 1,
+        "seller_message": "The bank returned the decline code `transaction_not_allowed`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3PRukdRo5jrKLaDi0hDfoSkI",
+      "payment_method": "pm_1PRulBRo5jrKLaDiZWS4ltxE",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "NL",
+          "exp_month": 2,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "BC4w8f7dRo2qSom6",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "0178",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 9600,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "1703",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_7nCtSqRk1W5wjv",
+    "idempotency_key": "7a3a2e74-9b5f-4407-b683-7de3446c8839"
+  },
+  "type": "charge.failed"
+}

@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PSJUARo5jrKLaDi0XKks1bm",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718545873,
+  "data": {
+    "object": {
+      "id": "ch_3PSJUARo5jrKLaDi0rVThb3a",
+      "object": "charge",
+      "amount": 3100,
+      "amount_captured": 3100,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "CO",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "jorencascas@gmail.com",
+        "name": "Diana Rey",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718545871,
+      "currency": "usd",
+      "customer": "cus_QIvJh4dzKJ9j2X",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 43,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSJUARo5jrKLaDi03EQArx4",
+      "payment_method": "pm_1PSJU9Ro5jrKLaDiHe3BRou9",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 3100,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "CO",
+          "exp_month": 5,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "6sUAmlt3AR1WMADC",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "8117",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 3100,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGko0tu7swYyBh_0LRXfizosFpLeX2xv0g4NwygL7fLcN4kU-Wv7zJYBocTdFhFgFPm1uqLC1_qjLlFv5cw",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_VHe5jmHNJF9Ixm",
+    "idempotency_key": "ed0196de-5464-452d-8e74-82095a42b8cd"
+  },
+  "type": "charge.succeeded"
+}

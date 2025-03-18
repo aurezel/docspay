@@ -1,0 +1,130 @@
+{
+  "id": "evt_3PRsrnRo5jrKLaDi1qt1MxIC",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718443549,
+  "data": {
+    "object": {
+      "id": "ch_3PRsrnRo5jrKLaDi12lEovGF",
+      "object": "charge",
+      "amount": 13000,
+      "amount_captured": 13000,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Lichtenstein",
+          "country": "DE",
+          "line1": "Bleiche 6",
+          "line2": "",
+          "postal_code": "72805",
+          "state": ""
+        },
+        "email": "R.lauria@web.de",
+        "name": "Roberto Lauria",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718443548,
+      "currency": "usd",
+      "customer": "cus_QIToyPJnOPbM3P",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 27,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PRsrnRo5jrKLaDi1zA48AmZ",
+      "payment_method": "pm_1PRsrmRo5jrKLaDi77X1tsom",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 13000,
+          "brand": "amex",
+          "checks": {
+            "address_line1_check": "pass",
+            "address_postal_code_check": "pass",
+            "cvc_check": null
+          },
+          "country": "DE",
+          "exp_month": 11,
+          "exp_year": 2024,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "A7kTUDjE8NfcohIV",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "1007",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "amex",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 13000,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "3335",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkonry1swYyBoxA-m64lTosFj2CuVAWtENigRJSzA_AWmWvfJJT0DAjbmVOA1fItITgiWuTMqJnG_wciLk",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_rTsfGwwlOr3ES3",
+    "idempotency_key": "912697cf-e0b7-40ee-8e41-6b40e9cb765a"
+  },
+  "type": "charge.succeeded"
+}

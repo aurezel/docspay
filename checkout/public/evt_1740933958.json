@@ -1,0 +1,142 @@
+{
+  "id": "evt_3QyFbvE6hZ9WbPkk10vsfByV",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740933957,
+  "data": {
+    "object": {
+      "id": "ch_3QyFbvE6hZ9WbPkk1Ff0Znwf",
+      "object": "charge",
+      "amount": 3900,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "PT",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "lorenamirandafaial@gmail.com",
+        "name": "Micaela Alexandra Sousa Salgado Esteves",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": false,
+      "created": 1740933956,
+      "currency": "usd",
+      "customer": "cus_RrzaXgAxG8m47d",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card was declined.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": "confirm_card_data",
+        "network_advice_code": "01",
+        "network_decline_code": "83",
+        "network_status": "declined_by_network",
+        "reason": "generic_decline",
+        "risk_level": "normal",
+        "seller_message": "The bank did not return any further details with this decline.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3QyFbvE6hZ9WbPkk11BTDJhb",
+      "payment_method": "pm_1QyFeGE6hZ9WbPkkQzGM9BiT",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "authorization_code": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "unavailable"
+          },
+          "country": "PT",
+          "exp_month": 1,
+          "exp_year": 2029,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "h7ZSANIGnRaz8OAn",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "8799",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "TPLG4LJF20302",
+          "overcapture": {
+            "maximum_amount_capturable": 3900,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": null,
+            "electronic_commerce_indicator": "01",
+            "exemption_indicator": null,
+            "result": "attempt_acknowledged",
+            "result_reason": null,
+            "transaction_id": "093472ca-17f1-44e2-8913-d9a41bd19cd6",
+            "version": "2.2.0"
+          },
+          "wallet": {
+            "dynamic_last4": null,
+            "link": {
+            },
+            "type": "link"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QyFbvE6hZ9WbPkk11BTDJhb-payatt_3QyFbvE6hZ9WbPkk1U0OqEjv"
+  },
+  "type": "charge.failed"
+}

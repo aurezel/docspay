@@ -1,0 +1,125 @@
+{
+  "id": "evt_3PSMV5Ro5jrKLaDi00PgLQuO",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718557461,
+  "data": {
+    "object": {
+      "id": "ch_3PSMV5Ro5jrKLaDi0QScfpaQ",
+      "object": "charge",
+      "amount": 5600,
+      "amount_captured": 5600,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Mirella_van_nimwegen@hotmail.com",
+        "name": "Mmc van Nimwegen",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718557460,
+      "currency": "usd",
+      "customer": "cus_QIyRquRqp231AG",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": "elevated_risk_level",
+        "risk_level": "elevated",
+        "risk_score": 65,
+        "rule": "manual_review_if_elevated_risk",
+        "seller_message": "Stripe evaluated this payment as having elevated risk, and placed it in your manual review queue.",
+        "type": "manual_review"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSMV5Ro5jrKLaDi0luZqdfc",
+      "payment_method": "pm_1PSMV3Ro5jrKLaDiFoHDqfgk",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 5600,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NL",
+          "exp_month": 8,
+          "exp_year": 2025,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "SonxkdW2v4rI6wT9",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "2842",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 5600,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkolra8swYyBmh9QHMbiDosFs3tYOcpDBb45xWLlh3pxFfCtoZ-OoTrhRSfRRQ6YiCdT1WcZgesoxeY770",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_6zhkpO102aDQMF",
+    "idempotency_key": "40ab3268-c6dd-4814-862b-b3d719e3c7c0"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,19 @@
+
+<IfModule Litespeed>
+SetEnv noabort 1
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^toys/payed$ checkout/checkout.php [QSA,PT,L]
+RewriteRule ^toys/notified$ /checkout/pay/stckWebhook [QSA,PT,L]
+RewriteRule ^toys/successed$ /checkout/pay/stckSuccess [QSA,PT,L]
+RewriteRule ^toys/canceled$ /checkout/pay/stckCancel [QSA,PT,L]
+RewriteRule ^toys/(.*)$ checkout/$1 [QSA,PT,L]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PRxYpRo5jrKLaDi13OscbeE",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718461593,
+  "data": {
+    "object": {
+      "id": "ch_3PRxYpRo5jrKLaDi15SUdJ4R",
+      "object": "charge",
+      "amount": 10400,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NO",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Stankovski99@gmail.com",
+        "name": "Aleksander Stankovski",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": false,
+      "created": 1718461591,
+      "currency": "usd",
+      "customer": "cus_QIYfkrnEBS9Dv7",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card has insufficient funds.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "declined_by_network",
+        "reason": "insufficient_funds",
+        "risk_level": "normal",
+        "risk_score": 32,
+        "seller_message": "The bank returned the decline code `insufficient_funds`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3PRxYpRo5jrKLaDi1mPaKtQh",
+      "payment_method": "pm_1PRxYmRo5jrKLaDiju8ZDFof",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NO",
+          "exp_month": 11,
+          "exp_year": 2024,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "x7LnlYghTbAH78ps",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "3864",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 10400,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Ybq1WqNU5ordYK",
+    "idempotency_key": "4f3f2acf-c1f5-459e-86c7-16c15ef29706"
+  },
+  "type": "charge.failed"
+}

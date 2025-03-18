@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PS1W2Ro5jrKLaDi0OFk4Ba3",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718476832,
+  "data": {
+    "object": {
+      "id": "ch_3PS1W2Ro5jrKLaDi06CUk8vz",
+      "object": "charge",
+      "amount": 13000,
+      "amount_captured": 13000,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "CZ",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "davidurban70@seznam.cz",
+        "name": "Petra Urbanová",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718476832,
+      "currency": "usd",
+      "customer": "cus_QIcjYeO9vOifbQ",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 16,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PS1W2Ro5jrKLaDi027Ixeh6",
+      "payment_method": "pm_1PS1VwRo5jrKLaDix1VTlOO2",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 13000,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "CZ",
+          "exp_month": 6,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "3gefOvydeDuJQDk7",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "7963",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 13000,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkoocC3swYyBv5ANiytLzosFp8HJfr_ewP1AAaJhMDYW09Bzb8VjufRC8AuRmuCjs-M3yiwDbemQFfvGJ0",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_GFeFu7TPkTIx10",
+    "idempotency_key": "29d27e12-4da4-4e5c-abc8-67ac5798ad71"
+  },
+  "type": "charge.succeeded"
+}

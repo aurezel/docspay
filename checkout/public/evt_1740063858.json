@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QubIRE6hZ9WbPkk0IcNF0dB",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740063857,
+  "data": {
+    "object": {
+      "id": "ch_3QubIRE6hZ9WbPkk0NWu2RPr",
+      "object": "charge",
+      "amount": 5500,
+      "amount_captured": 5500,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Bunnik",
+          "country": "NL",
+          "line1": "Van Beesdelaan 21",
+          "line2": "",
+          "postal_code": "3981 EC",
+          "state": ""
+        },
+        "email": "roel.werner@gmail.com",
+        "name": "R.J. Werner",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740063856,
+      "currency": "usd",
+      "customer": "cus_RoDj9twMffraME",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QubIRE6hZ9WbPkk0uBrb29v",
+      "payment_method": "pm_1QubIQE6hZ9WbPkkBOzASPoC",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 5500,
+          "authorization_code": "180052",
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "NL",
+          "exp_month": 7,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "DTMgBRDKgDGWxGAY",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "6582",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MCSFGJQTU0220",
+          "overcapture": {
+            "maximum_amount_capturable": 5500,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "1491",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2so8YjdvQYyBrQ83OM1HDosFuQ6V9EPkBy_CvcZatiySgeIl7W6amXBg24P5xBJ0JMyu6uHmkvMPOPju_A",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_kRQMJqihjzj1R6",
+    "idempotency_key": "64c2679b-228f-4eb3-9cc3-48c131d3cb43"
+  },
+  "type": "charge.succeeded"
+}

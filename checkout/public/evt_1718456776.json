@@ -1,0 +1,125 @@
+{
+  "id": "evt_3PRwJ7Ro5jrKLaDi1kIOb2DO",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718456775,
+  "data": {
+    "object": {
+      "id": "ch_3PRwJ7Ro5jrKLaDi1XFXrE0e",
+      "object": "charge",
+      "amount": 8400,
+      "amount_captured": 8400,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "JP",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "watahideki@gmail.com",
+        "name": "HIDEKI WATANABE",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718456774,
+      "currency": "usd",
+      "customer": "cus_QIXLDjmJRXWgg8",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": "elevated_risk_level",
+        "risk_level": "elevated",
+        "risk_score": 72,
+        "rule": "manual_review_if_elevated_risk",
+        "seller_message": "Stripe evaluated this payment as having elevated risk, and placed it in your manual review queue.",
+        "type": "manual_review"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PRwJ7Ro5jrKLaDi1X3XAYKw",
+      "payment_method": "pm_1PRwJ4Ro5jrKLaDiovmPDpdB",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 8400,
+          "brand": "amex",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "JP",
+          "exp_month": 12,
+          "exp_year": 2025,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "nGxsDoSssX7lTe4d",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "1831",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "amex",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 8400,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkoyKO2swYyBmh-IRaBlzosFsLzbKME99mlxyllCmYTCxQ8GGnh0Pfg1BQ56l8y8IPmfeZHpU5vEBQTV6k",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_1A6bDCZEUBBmPa",
+    "idempotency_key": "d26d649d-81fd-4d10-a378-5ab074ed2b22"
+  },
+  "type": "charge.succeeded"
+}

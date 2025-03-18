@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PRuohRo5jrKLaDi1WKhzf6N",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718451045,
+  "data": {
+    "object": {
+      "id": "ch_3PRuohRo5jrKLaDi1I1ZN1hf",
+      "object": "charge",
+      "amount": 7600,
+      "amount_captured": 7600,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "IT",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "vincenzocannata91@gmail.com",
+        "name": "Vincenzo Cannata",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718451044,
+      "currency": "usd",
+      "customer": "cus_QIVpLIN9741x7y",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 35,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PRuohRo5jrKLaDi1MzIM5ca",
+      "payment_method": "pm_1PRuogRo5jrKLaDiBZCBR1yi",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 7600,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "IT",
+          "exp_month": 1,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "n9LFbNI6KRwskvL0",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "9341",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 7600,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGko5fa1swYyBoSl2F1EeDosFnMVRv2yVQYJrAvXgzB8ZrmXLUu_nf_cjRbHKwHkjj0yyvSZ7CQjSFFTNw4",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_S3g729x92hqEpw",
+    "idempotency_key": "2ef15459-fe82-4cfa-99e0-f7bc99c18de8"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "evt_3PRv0xRo5jrKLaDi1CbJc8br",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718451804,
+  "data": {
+    "object": {
+      "id": "ch_3PRv0xRo5jrKLaDi17vKjP91",
+      "object": "charge",
+      "amount": 14800,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "BE",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "vgelders@gmail.com",
+        "name": "Stefan van Gelder",
+        "phone": null
+      },
+      "calculated_statement_descriptor": null,
+      "captured": false,
+      "created": 1718451804,
+      "currency": "usd",
+      "customer": "cus_QIW23VekxcFnwk",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card was declined.",
+      "fraud_details": {
+        "stripe_report": "fraudulent"
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "not_sent_to_network",
+        "reason": "highest_risk_level",
+        "risk_level": "highest",
+        "risk_score": 75,
+        "rule": "block_if_high_risk",
+        "seller_message": "Stripe blocked this payment as too risky.",
+        "type": "blocked"
+      },
+      "paid": false,
+      "payment_intent": "pi_3PRv0xRo5jrKLaDi1PfIg5qt",
+      "payment_method": "pm_1PRv0wRo5jrKLaDiwztof3SO",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "unavailable"
+          },
+          "country": "BE",
+          "exp_month": 4,
+          "exp_year": 2025,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "BbyGE8vcOtGMANyj",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "4009",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 14800,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_HRhrPAdbOYrFOW",
+    "idempotency_key": "4f43affa-4ecd-4f28-b2a9-ef165b85c20d"
+  },
+  "type": "charge.failed"
+}

@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QvcHqE6hZ9WbPkk0KYKR8Gd",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740305991,
+  "data": {
+    "object": {
+      "id": "ch_3QvcHqE6hZ9WbPkk0jpr9mdO",
+      "object": "charge",
+      "amount": 3400,
+      "amount_captured": 3400,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Σινδος",
+          "country": "GR",
+          "line1": "Ακρωπολεος 22Β",
+          "line2": "",
+          "postal_code": "57400",
+          "state": ""
+        },
+        "email": "savvidoum03@gmail.com",
+        "name": "Maria Savvidou",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740305990,
+      "currency": "usd",
+      "customer": "cus_RpGpdj29dADDz5",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QvcHqE6hZ9WbPkk00v5RQld",
+      "payment_method": "pm_1QvcHpE6hZ9WbPkkTZVpt7AK",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 3400,
+          "authorization_code": "619805",
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "GR",
+          "exp_month": 2,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "hMzU4UOAd7hZGM6S",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "0259",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MDUFLGFFG0223",
+          "overcapture": {
+            "maximum_amount_capturable": 3400,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "4643",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2soyOzrvQYyBmJzwh8KZjosFipH2MrnllXIT-tfgfx48xeB3SBLYNchNSeaTq59yB7b-DHJA8Jo5FRBe8k",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_5KFnhIpwYOXIX5",
+    "idempotency_key": "08a25633-9e19-495a-8e41-68154947e0c1"
+  },
+  "type": "charge.succeeded"
+}

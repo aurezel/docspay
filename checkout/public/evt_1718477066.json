@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PS1aORo5jrKLaDi0miCfN1M",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718477065,
+  "data": {
+    "object": {
+      "id": "ch_3PS1aORo5jrKLaDi0TABUfwu",
+      "object": "charge",
+      "amount": 7700,
+      "amount_captured": 7700,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Rozemarijnweber@hotmail.com",
+        "name": "Caj verboom",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718477065,
+      "currency": "usd",
+      "customer": "cus_QIcnMLKMp5eNqh",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 36,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PS1aORo5jrKLaDi07m6Sa8F",
+      "payment_method": "pm_1PS1aMRo5jrKLaDigTNnUNUy",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 7700,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NL",
+          "exp_month": 6,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "sMXcOPVTX8qqZWjK",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "4614",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 7700,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkoisK3swYyBkR5Ncy8VjosFmNY4HJH3k7knfSmW8PTeoAXjIeDRJ2IHhBmvgp0vsvz7_jBYbGkOXTVyXU",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_xVwKabCQTDfxmw",
+    "idempotency_key": "19f9ed0b-dae9-409e-ae7e-2390ab3d5b98"
+  },
+  "type": "charge.succeeded"
+}

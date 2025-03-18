@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PSJydRo5jrKLaDi1vBvAwg7",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718547761,
+  "data": {
+    "object": {
+      "id": "ch_3PSJydRo5jrKLaDi1plw1GYu",
+      "object": "charge",
+      "amount": 13600,
+      "amount_captured": 13600,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NL",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "Tobiasbroser@gmail.com",
+        "name": "Tobias broser",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718547760,
+      "currency": "usd",
+      "customer": "cus_QIvoFqdEDeIA4r",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 30,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSJydRo5jrKLaDi1H1bX9jp",
+      "payment_method": "pm_1PSJyaRo5jrKLaDiGkHY7fDA",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 13600,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "DE",
+          "exp_month": 1,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "fY0CDgiipiePBKhH",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "8099",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 13600,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkosuq7swYyBvt3JHV2eDosFnqGqAnTdz5S--NqQBsBl6JG7YmaDnYr2xLJluK-wW8HOlmsdXqsYpsm1SA",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_Bq3heZrSFMxIeY",
+    "idempotency_key": "07e21656-c092-4101-9cc9-3815ea3065fa"
+  },
+  "type": "charge.succeeded"
+}

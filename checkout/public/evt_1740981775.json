@@ -1,0 +1,142 @@
+{
+  "id": "evt_3QyS46E6hZ9WbPkk06a4cSox",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740981774,
+  "data": {
+    "object": {
+      "id": "ch_3QyS46E6hZ9WbPkk0t9roEXZ",
+      "object": "charge",
+      "amount": 7900,
+      "amount_captured": 7900,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "BE",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "nicole.maenhout64@skynet.be",
+        "name": "Nicole Maenhout",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740981773,
+      "currency": "usd",
+      "customer": "cus_RsCROisY3HmYDj",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QyS46E6hZ9WbPkk0Cag35N9",
+      "payment_method": "pm_1QyS45E6hZ9WbPkkvi6cgwFH",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 7900,
+          "authorization_code": "394784",
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "unavailable"
+          },
+          "country": "BE",
+          "exp_month": 7,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "WgK9MoMGKkWWrjPQ",
+          "funding": "prepaid",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "3215",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MRG6AHXYO0303",
+          "overcapture": {
+            "maximum_amount_capturable": 7900,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "challenge",
+            "electronic_commerce_indicator": "02",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "6dd90a57-707a-41cd-be7f-f088d70ddbaf",
+            "version": "2.2.0"
+          },
+          "wallet": {
+            "dynamic_last4": null,
+            "link": {
+            },
+            "type": "link"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2sojoyVvgYyBi0h-_VlyTosFjy4a8Hrd9abH0eWhv3EsA5mJWI3cbCbLL_H0sfjV9GH9s0iMDiYWQzkf8Y",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QyS46E6hZ9WbPkk0Cag35N9-payatt_3QyS46E6hZ9WbPkk0aVbHA2K"
+  },
+  "type": "charge.succeeded"
+}

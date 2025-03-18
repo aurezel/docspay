@@ -1,0 +1,142 @@
+{
+  "id": "evt_3QxoslE6hZ9WbPkk1ItnxUxW",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740831072,
+  "data": {
+    "object": {
+      "id": "ch_3QxoslE6hZ9WbPkk1nfjKd4o",
+      "object": "charge",
+      "amount": 3100,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Attnang-Puchheim",
+          "country": "AT",
+          "line1": "Brunnengasse Brunnengasse 54/5,",
+          "line2": null,
+          "postal_code": "4800",
+          "state": "Oberösterreich"
+        },
+        "email": "karic.amina@icloud.com",
+        "name": "Amina Karic",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": false,
+      "created": 1740831070,
+      "currency": "usd",
+      "customer": "cus_RrXyYhFRFBtwBW",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card has insufficient funds.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": "try_again_later",
+        "network_advice_code": null,
+        "network_decline_code": "51",
+        "network_status": "declined_by_network",
+        "reason": "insufficient_funds",
+        "risk_level": "normal",
+        "seller_message": "The bank returned the decline code `insufficient_funds`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3QxoslE6hZ9WbPkk1oTk7RX7",
+      "payment_method": "pm_1QxoskE6hZ9WbPkkEYJpfL1C",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "authorization_code": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "AT",
+          "exp_month": 4,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "6D8vmIXbODasCw5p",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "5328",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MCSU059HT0301",
+          "overcapture": {
+            "maximum_amount_capturable": 3100,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "frictionless",
+            "electronic_commerce_indicator": "02",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "11f397d5-c8aa-4be3-8e67-fc42977187b0",
+            "version": "2.2.0"
+          },
+          "wallet": {
+            "dynamic_last4": null,
+            "link": {
+            },
+            "type": "link"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3QxoslE6hZ9WbPkk1oTk7RX7-payatt_3QxoslE6hZ9WbPkk1qIzNOh8"
+  },
+  "type": "charge.failed"
+}

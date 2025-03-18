@@ -1,0 +1,137 @@
+{
+  "id": "evt_3Qx2QlE6hZ9WbPkk0aUb6q08",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740644945,
+  "data": {
+    "object": {
+      "id": "ch_3Qx2QlE6hZ9WbPkk0gC2kg76",
+      "object": "charge",
+      "amount": 5900,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "NZ",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "calaniwalker13@gmail.com",
+        "name": "Karen Ani Heurea",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": false,
+      "created": 1740644944,
+      "currency": "usd",
+      "customer": "cus_RqjsX3DMihj2yJ",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card has insufficient funds.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": "try_again_later",
+        "network_advice_code": "02",
+        "network_decline_code": "51",
+        "network_status": "declined_by_network",
+        "reason": "insufficient_funds",
+        "risk_level": "normal",
+        "seller_message": "The bank returned the decline code `insufficient_funds`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3Qx2QlE6hZ9WbPkk0H170kHL",
+      "payment_method": "pm_1Qx2SAE6hZ9WbPkk1bWS0Ttt",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "authorization_code": null,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "NZ",
+          "exp_month": 9,
+          "exp_year": 2028,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "i8nCC3cyuwC8jk40",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "7748",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "305058305445976",
+          "overcapture": {
+            "maximum_amount_capturable": 5900,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "challenge",
+            "electronic_commerce_indicator": "05",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "1a838bea-c3b5-4b4a-b75a-a5af06db2c75",
+            "version": "2.2.0"
+          },
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3Qx2QlE6hZ9WbPkk0H170kHL-payatt_3Qx2QlE6hZ9WbPkk01u056TD"
+  },
+  "type": "charge.failed"
+}

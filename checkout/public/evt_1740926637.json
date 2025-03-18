@@ -1,0 +1,135 @@
+{
+  "id": "evt_3QyDiTE6hZ9WbPkk1UfR9PMi",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740926637,
+  "data": {
+    "object": {
+      "id": "ch_3QyDiTE6hZ9WbPkk1KioPJq6",
+      "object": "charge",
+      "amount": 5100,
+      "amount_captured": 5100,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Hollabrunn",
+          "country": "AT",
+          "line1": "Aspersdorferstraße3/2/8",
+          "line2": "",
+          "postal_code": "2020",
+          "state": ""
+        },
+        "email": "baumgartnerpascal6@gmail.com",
+        "name": "Pascal Baumgartner",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740926636,
+      "currency": "usd",
+      "customer": "cus_Rrxd6JnrxqqOQR",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3QyDiTE6hZ9WbPkk17i7q9Dr",
+      "payment_method": "pm_1QyDkFE6hZ9WbPkkZIc5STNt",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 5100,
+          "authorization_code": "097502",
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": "fail",
+            "address_postal_code_check": "pass",
+            "cvc_check": null
+          },
+          "country": "AT",
+          "exp_month": 6,
+          "exp_year": 2031,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "puF7CPNgjnk0vS8Q",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "2204",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "485061530369026",
+          "overcapture": {
+            "maximum_amount_capturable": 5100,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "9140",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2sord2RvgYyBnFFJMhndDosFkVkSjZif3YhC_uhMO9vRCr_pwR8_cTJqD53KBklC63eOg4sNzg6ddTgEDA",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_ldxX2FSko4v0es",
+    "idempotency_key": "3844a867-ceed-4b5b-bc5e-9310ec27d75a"
+  },
+  "type": "charge.succeeded"
+}

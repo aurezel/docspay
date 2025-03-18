@@ -1,0 +1,135 @@
+{
+  "id": "evt_3Qw65mE6hZ9WbPkk0mb7Txy9",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740420564,
+  "data": {
+    "object": {
+      "id": "ch_3Qw65mE6hZ9WbPkk0Atpqsxq",
+      "object": "charge",
+      "amount": 3000,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Gävle",
+          "country": "SE",
+          "line1": "Jökelvägen 22",
+          "line2": "2",
+          "postal_code": "80633",
+          "state": ""
+        },
+        "email": "dinasuhair555@gmail.com",
+        "name": "Dina Albasri",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": false,
+      "created": 1740420563,
+      "currency": "usd",
+      "customer": "cus_RplcpzetFnwGdq",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card has insufficient funds.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": "try_again_later",
+        "network_advice_code": null,
+        "network_decline_code": "51",
+        "network_status": "declined_by_network",
+        "reason": "insufficient_funds",
+        "risk_level": "normal",
+        "seller_message": "The bank returned the decline code `insufficient_funds`.",
+        "type": "issuer_declined"
+      },
+      "paid": false,
+      "payment_intent": "pi_3Qw65mE6hZ9WbPkk0iQhz1zJ",
+      "payment_method": "pm_1Qw65mE6hZ9WbPkkuFiQqfk1",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "authorization_code": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "SE",
+          "exp_month": 8,
+          "exp_year": 2027,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "BtzcQeOlL1xCeW4D",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "7230",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "MDSG4OHOH0224",
+          "overcapture": {
+            "maximum_amount_capturable": 3000,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "3059",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_YVXZQr0PFeTH0Q",
+    "idempotency_key": "b397889f-cd2c-46e5-a544-f9e88fec0f2c"
+  },
+  "type": "charge.failed"
+}

@@ -1,0 +1,130 @@
+{
+  "id": "evt_3PSKmBRo5jrKLaDi0n1JmWtF",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718550831,
+  "data": {
+    "object": {
+      "id": "ch_3PSKmBRo5jrKLaDi0LjkFn8Q",
+      "object": "charge",
+      "amount": 3700,
+      "amount_captured": 0,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Hellendoorn",
+          "country": "NL",
+          "line1": "Ninaberlaan 64",
+          "line2": "",
+          "postal_code": "7447 AG",
+          "state": ""
+        },
+        "email": "lm-lisanne@hotmail.com",
+        "name": "Lisanne Enserink - Mollink",
+        "phone": null
+      },
+      "calculated_statement_descriptor": null,
+      "captured": false,
+      "created": 1718550831,
+      "currency": "usd",
+      "customer": "cus_QIwfcXjEv0T7qy",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": "card_declined",
+      "failure_message": "Your card was declined.",
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "not_sent_to_network",
+        "reason": "highest_risk_level",
+        "risk_level": "normal",
+        "risk_score": 3,
+        "seller_message": "Stripe blocked this payment as too risky.",
+        "type": "blocked"
+      },
+      "paid": false,
+      "payment_intent": "pi_3PSKmBRo5jrKLaDi0b8MNamA",
+      "payment_method": "pm_1PSKmARo5jrKLaDi7mKCqjc9",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": null,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": "unavailable",
+            "address_postal_code_check": "unavailable",
+            "cvc_check": null
+          },
+          "country": "NL",
+          "exp_month": 12,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "fbpEcXB2jBT7RnlZ",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "8511",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 3700,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "0159",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": null,
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "failed",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_umkWLrMt1Jl21Z",
+    "idempotency_key": "e4890502-5dba-4fcc-bad7-13d4f2269e8a"
+  },
+  "type": "charge.failed"
+}

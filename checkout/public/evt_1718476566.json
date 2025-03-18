@@ -1,0 +1,130 @@
+{
+  "id": "evt_3PS1SKRo5jrKLaDi08TXUW3O",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718476565,
+  "data": {
+    "object": {
+      "id": "ch_3PS1SKRo5jrKLaDi0jbqeq6A",
+      "object": "charge",
+      "amount": 14800,
+      "amount_captured": 14800,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": "Epalinges",
+          "country": "CH",
+          "line1": "Ch. de la Pecholettaz 7",
+          "line2": "",
+          "postal_code": "1066",
+          "state": ""
+        },
+        "email": "anthony.viola@me.com",
+        "name": "Anthony Viola",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718476564,
+      "currency": "usd",
+      "customer": "cus_QIcenFd8tEZVAu",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 20,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PS1SKRo5jrKLaDi0m5UqNS5",
+      "payment_method": "pm_1PS1SJRo5jrKLaDi5z4tQilZ",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 14800,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": "pass",
+            "address_postal_code_check": "pass",
+            "cvc_check": null
+          },
+          "country": "CH",
+          "exp_month": 1,
+          "exp_year": 2030,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "ZzEcaEetG5iBwzsU",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "1921",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 14800,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": {
+            "apple_pay": {
+              "type": "apple_pay"
+            },
+            "dynamic_last4": "7483",
+            "type": "apple_pay"
+          }
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGkolr63swYyBo2So6ik5josFuufVx3X5KX1t9FmNNnHKXtHYt3IHUaHXKGFx85Npsflshss9ovkotDNyU8",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_NW1Nz7niQQ1iXL",
+    "idempotency_key": "38a38a58-a626-497e-a9d3-2966789bb09d"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,20 @@
+====================Version:checkout_beta====================
+[2024-05-21 08:39:47]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-05-21 08:40:46]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-05-21 08:41:22]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-05-24 00:51:00]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-06-03 09:12:04]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-06-03 19:12:39]  curlErrMsg:Could not resolve host: center.sdapay.shop
+====================Version:checkout_beta====================
+[2024-06-03 19:12:39]  checkout Curl获取数据为空
+====================Version:checkout_beta====================
+[2024-06-04 02:48:48]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-06-09 16:02:40]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}
+====================Version:checkout_beta====================
+[2024-06-10 22:17:43]  获取传参接口异常:{"status":0,"errmsg":"Internal error, please try again.","data":[],"errcode":1}

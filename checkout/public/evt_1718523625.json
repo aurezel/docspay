@@ -1,0 +1,124 @@
+{
+  "id": "evt_3PSDhKRo5jrKLaDi0QqGZrjO",
+  "object": "event",
+  "api_version": "2024-04-10",
+  "created": 1718523624,
+  "data": {
+    "object": {
+      "id": "ch_3PSDhKRo5jrKLaDi0LbepgUr",
+      "object": "charge",
+      "amount": 5300,
+      "amount_captured": 5300,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "RO",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "violeta.ungureanu7173@gmail.com",
+        "name": "Mihaela Violeta Ungureanu",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "ETHEREALEMBOSSEXPRESSI",
+      "captured": true,
+      "created": 1718523623,
+      "currency": "usd",
+      "customer": "cus_QIpKqQqKWng9Jk",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 49,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3PSDhKRo5jrKLaDi0SlM8gYI",
+      "payment_method": "pm_1PSDhJRo5jrKLaDiigyIePYT",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 5300,
+          "brand": "mastercard",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "RO",
+          "exp_month": 2,
+          "exp_year": 2029,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "JPjT2rmnDWCseXCu",
+          "funding": "debit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "2542",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "mastercard",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 5300,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFQNGdhRVJvNWpyS0xhRGko6a26swYyBm-4FLa_VDosFp2G0W6P4vxnVfNw4Qf-okfjEYWsda1eJKfjk5HlhT3KSIc7B-n6aXNJbYc",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_e68z6i0Y9vT0q0",
+    "idempotency_key": "7d84a0ed-4c07-4381-906f-98411c65c586"
+  },
+  "type": "charge.succeeded"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "evt_3Qw945E6hZ9WbPkk0fuh2eGE",
+  "object": "event",
+  "api_version": "2025-01-27.acacia",
+  "created": 1740432196,
+  "data": {
+    "object": {
+      "id": "ch_3Qw945E6hZ9WbPkk0LHiimCr",
+      "object": "charge",
+      "amount": 5100,
+      "amount_captured": 5100,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": null,
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": "HR",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": "viktorija.palic11@icloud.com",
+        "name": "Mario Antić",
+        "phone": null
+      },
+      "calculated_statement_descriptor": "SKEDDLE GMBH",
+      "captured": true,
+      "created": 1740432195,
+      "currency": "usd",
+      "customer": "cus_RpogAI9uqfjyHl",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": true,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "advice_code": null,
+        "network_advice_code": null,
+        "network_decline_code": null,
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": "pi_3Qw945E6hZ9WbPkk0qpXS3vd",
+      "payment_method": "pm_1Qw96WE6hZ9WbPkkUaBMHe9z",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 5100,
+          "authorization_code": "021941",
+          "brand": "diners",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "HR",
+          "exp_month": 10,
+          "exp_year": 2026,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "b4T1bUa3Q6C3V4GG",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "3007",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "diners",
+          "network_token": {
+            "used": false
+          },
+          "network_transaction_id": "875047245959630",
+          "overcapture": {
+            "maximum_amount_capturable": 5100,
+            "status": "unavailable"
+          },
+          "regulated_status": "unregulated",
+          "three_d_secure": {
+            "authentication_flow": "challenge",
+            "electronic_commerce_indicator": "05",
+            "exemption_indicator": null,
+            "result": "authenticated",
+            "result_reason": null,
+            "transaction_id": "0035b5bd-0659-5267-8000-0000544e9a56",
+            "version": "2.2.0"
+          },
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "radar_options": {
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFRcTVGTUU2aFo5V2JQa2soxMbzvQYyBrIdOEHhMzosFnvbZuwJH17sLSOGEhdLCbNpT8auNBhX-_OpgR3RZsfEBSlGIYhOCYOl4uY",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": null,
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": true,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": "pi_3Qw945E6hZ9WbPkk0qpXS3vd-payatt_3Qw945E6hZ9WbPkk0mNpPfXI"
+  },
+  "type": "charge.succeeded"
+}
