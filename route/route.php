@@ -17,7 +17,9 @@ Route::post('pay/refund','Pay/refund');
 Route::post('pay/createOrder', 'Pay/createOrder');
 Route::post('pay/errorCount','Pay/errorCount');
 Route::post('pay/keyError','Pay/publicKeyErrorDeal');
+
 Route::post('pay/getChargeByEmail','Pay/getChargeByEmail');
+Route::post('pay/createPrice','Pay/createPrice');
 
 
 Route::rule('test','Index/test');

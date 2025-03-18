@@ -227,7 +227,6 @@ class Pay extends Controller
                 // 检查 billing_details 中的邮箱地址
                 if (isset($charge->billing_details->email) && $charge->billing_details->email === $email) {
                     $data[] =['charge_id'=>$charge->id, 'amount'=> $charge->amount/100,'status'=>$charge->status,'currency'=>$charge->currency,'create_time'=>$charge->created];
-
                 }
             }
             return apiSuccess($data);
@@ -235,4 +234,52 @@ class Pay extends Controller
             return apiError($e->getMessage());
         }
     }
+
+    public function createPrice(){
+//        if (!$this->checkResult) return apiError($this->validate->getError());
+        $privateKey = env('stripe.private_key');
+        $version = env('stripe.stripe_version');
+        if(!in_array($version,['v2','v3','connect','stripe_checkout','stripe_link','checkout_beta','st_checkout_price'])) {
+            return apiError("Unsupported version type");
+        }
+//        $prices = $this->paramsArray['prices'];
+        $prices = [10.88,11.88];
+        $products_name = ["Standard Plan","Premium Package","Basic Subscription","Pro Plan","Ultimate Access","Monthly Membership","Annual Subscription","Starter Tier","Enterprise Solution","One-Time Purchase","Deluxe Option","Essential Service","Advanced Features","Business Edition","Custom Package","Exclusive Deal","VIP Access","Complete Service","Extended License"];
+        shuffle($products_name);
+        $currency = $this->paramsArray['currency'] ?? "USD";
+//        if ($this->paramsArray['token'] !== md5(hash('sha256', $prices . $privateKey))) return apiError('Token error!');
+
+        $curl = new \Stripe\HttpClient\CurlClient(getCurlOpts());
+        \Stripe\ApiRequestor::setHttpClient($curl);
+        $stripe = new \Stripe\StripeClient($privateKey);
+
+        try {
+            foreach ($prices as $unitAmount) {
+                if ($unitAmount <= 50) {
+                    $product_name = $products_name[0];
+                } elseif ($unitAmount <= 100) {
+                    $product_name = $products_name[1];
+                } else {
+                    $product_name = $products_name[2];
+                }
+                $price = $stripe->prices->create([
+                    'currency' => $currency,
+                    'unit_amount' => $unitAmount * 100, // 金额以分计算
+                    'product_data' => ['name' => $product_name], // 自动创建关联产品
+                ]);
+
+                // 将生成的价格信息存储到数组中
+//                $createdPrices[] = [
+//                    'id' => $price->id,
+//                    'unit_amount' => $price->unit_amount,
+//                    'product_name' => $price->product->name
+//                ];
+            }
+            return apiSuccess();
+        }catch(\Exception $e) {
+            return apiError($e->getMessage());
+        }
+    }
+
+
 }
