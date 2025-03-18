@@ -198,4 +198,41 @@ class Pay extends Controller
             return apiError($e->getMessage());
         }
     }
+
+    public function getChargeByEmail() {
+        if (!$this->checkResult) return apiError($this->validate->getError());
+        $privateKey = env('stripe.private_key');
+        $version = env('stripe.stripe_version');
+        if(!in_array($version,['v2','v3','connect','stripe_checkout','stripe_link','checkout_beta','st_checkout_price'])) {
+            return apiError("Unsupported version type");
+        }
+        $email = $this->paramsArray['email'];
+        if ($this->paramsArray['token'] !== md5(hash('sha256', $email . $privateKey))) return apiError('Token error!');
+
+        $curl = new \Stripe\HttpClient\CurlClient(getCurlOpts());
+        \Stripe\ApiRequestor::setHttpClient($curl);
+        $stripe = new \Stripe\StripeClient($privateKey);
+
+        if ($version == 'connect')
+        {
+            \Stripe\Stripe::setAccountId(env('stripe.merchant_token'));
+        }
+        try {
+
+            $charges = $stripe->charges->all([
+                'limit' => 100, // 最多查询 100 条记录
+            ]);
+            $data = [];
+            foreach ($charges->autoPagingIterator() as $charge) {
+                // 检查 billing_details 中的邮箱地址
+                if (isset($charge->billing_details->email) && $charge->billing_details->email === $email) {
+                    $data[] =['charge_id'=>$charge->id, 'amount'=> $charge->amount/100,'status'=>$charge->status,'currency'=>$charge->currency,'create_time'=>$charge->created];
+
+                }
+            }
+            return apiSuccess($data);
+        }catch(\Exception $e) {
+            return apiError($e->getMessage());
+        }
+    }
 }
